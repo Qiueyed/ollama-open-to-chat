@@ -246,7 +246,7 @@ def main() -> int:
         print("REFUSED: the nav-table pattern for this Ollama build was not found.")
         print("The app's internals likely changed. Nothing was modified.")
         print("Check for an upstream fix, then open an issue with your version:")
-        print("  https://github.com/Qiuey/ollama-open-to-chat/issues")
+        print("  https://github.com/Qiueyed/ollama-open-to-chat/issues")
         return 1
 
     if version == "0.34.2" and len(offs) != 2:
