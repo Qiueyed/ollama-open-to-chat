@@ -25,6 +25,19 @@ python3 open-to-chat.py --revert   # undo (with Ollama fully quit)
 - Python 3 (preinstalled on macOS via the command line tools)
 - Quit Ollama fully before patching or reverting
 
+## Get it
+
+```sh
+curl -fsSL -o open-to-chat.py https://raw.githubusercontent.com/Qiueyed/ollama-open-to-chat/main/open-to-chat.py
+```
+
+Read the script before running it (that is the point of downloading rather
+than piping to a shell), then:
+
+```sh
+python3 open-to-chat.py
+```
+
 ## What it actually does
 
 Static analysis of the app (details in [HOW-IT-WORKS.md](HOW-IT-WORKS.md))
