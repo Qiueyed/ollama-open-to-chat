@@ -1,0 +1,5 @@
+.DS_Store
+ISSUE_DRAFT.md
+*.bak
+*.pristine.bin
+__pycache__/
